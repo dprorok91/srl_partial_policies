@@ -1,0 +1,15 @@
+name: srl_partial_policies
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - tensorflow=2.16.2
+  - numpy
+  - matplotlib
+  - jupyter
+  - ipykernel
+  - ipython
+  - pillow
+  - pip:
+      - gymnasium[classic-control]
